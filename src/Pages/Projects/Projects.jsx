@@ -22,7 +22,7 @@ const Project = () => {
             PDFkit mainly through the creation of this application.
           </p>
           <div className="button-div-p">
-            <a href="http://157.245.230.201:3003/">
+            <a href="blueanchor.app">
               <button className="visit-button">Visit Client App</button>
             </a>
             <a href="https://github.com/bchong12/client-app">
