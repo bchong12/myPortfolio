@@ -1,0 +1,93 @@
+@media screen and (max-width: 417px) {
+  .desktop-logo {
+    display: none;
+  }
+  .header-links {
+    display: flex;
+    margin-top: 20px;
+    width: 100vw;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding-left: 25px;
+  }
+  .header-link {
+    color: rgb(156, 156, 156);
+    font-weight: 400;
+    z-index: 5;
+    margin-left: 0px;
+  }
+  .color {
+    color: #003366;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 418px) and (max-width: 768px) {
+  .desktop-logo {
+    height: 50px;
+    margin-left: 20px;
+  }
+  .header-links {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .header-link {
+    margin-left: 25px;
+    color: rgb(156, 156, 156);
+    font-weight: 400;
+    z-index: 5;
+  }
+  .color {
+    color: #003366;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    margin-left: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop-logo {
+    height: 50px;
+  }
+  .header-links {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .header-link {
+    margin-left: 25px;
+    color: rgb(156, 156, 156);
+    font-weight: 400;
+    z-index: 5;
+  }
+  .color {
+    color: #003366;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    margin-left: 25px;
+  }
+}
+
+.header {
+  display: flex;
+  padding: 20px 4vw 0px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-link:hover {
+  cursor: pointer;
+  color: #003366;
+}
+
+.hamburger-icon {
+  height: 60px;
+  width: 90px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
