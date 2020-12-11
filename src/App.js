@@ -20,7 +20,7 @@ function App() {
       <Route exact path="/projects">
         <Project />
       </Route>
-      <Route exact path="/contact">
+      <Route exact path="/about">
         <Contact />
       </Route>
     </BrowserRouter>

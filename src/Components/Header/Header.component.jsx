@@ -16,7 +16,7 @@ const Header = (props) => {
       setColor2("color");
     } else if (props.location.pathname === "/projects") {
       setColor3("color");
-    } else if (props.location.pathname === "/contact") {
+    } else if (props.location.pathname === "/about") {
       setColor4("color");
     }
   }, []);
@@ -66,7 +66,7 @@ const Header = (props) => {
         </p>
         <p
           onClick={() => {
-            props.history.push("/contact");
+            props.history.push("/about");
             setColor1("header-link");
             setColor2("header-link");
             setColor3("header-link");
@@ -74,7 +74,7 @@ const Header = (props) => {
           }}
           className={color4}
         >
-          contact
+          about
         </p>
       </div>
     </div>
