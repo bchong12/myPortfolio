@@ -8,7 +8,6 @@ const Project = () => {
         <div className="project-div">
           <p className="project-title">Client App</p>
           <p className="project-descriptions">
-            <b className="bold">Description:</b> An application where insurance
             agents can record meetings and insurance applications to a
             user-created account and send them to their email as a PDF.
           </p>
@@ -22,10 +21,10 @@ const Project = () => {
             PDFkit mainly through the creation of this application.
           </p>
           <div className="button-div-p">
-            <a href="https://blueanchor.app/">
+            <a target="_blank" href="http://blueanchorlife.com/">
               <button className="visit-button">Visit Client App</button>
             </a>
-            <a href="https://github.com/bchong12/client-app">
+            <a target="_blank" href="https://github.com/bchong12/client-app">
               <button className="visit-button">View On Github</button>
             </a>
           </div>
@@ -46,10 +45,10 @@ const Project = () => {
             and front-end code, and also the purpose of redux in an application
           </p>
           <div className="button-div-p">
-            <a href="http://still-waters.co/">
+            <a target="_blank" href="http://still-waters.co/">
               <button className="visit-button">Visit Still Waters</button>
             </a>
-            <a href="https://github.com/bchong12/still-waters">
+            <a target="_blank" href="https://github.com/bchong12/still-waters">
               <button className="visit-button">View On Github</button>
             </a>
           </div>
@@ -74,10 +73,10 @@ const Project = () => {
             team. Also used Trello for the first time.
           </p>
           <div className="button-div-p">
-            <a href="https://scanandgo.jesusreyes.dev/">
+            <a target="_blank" href="https://scanandgo.jesusreyes.dev/">
               <button className="visit-button">Visit ScanAndGo</button>
             </a>
-            <a href="https://github.com/Mobile-check-out-team/mobile-checkout">
+            <a target="_blank" href="https://github.com/Mobile-check-out-team/mobile-checkout">
               <button className="visit-button">View On Github</button>
             </a>
           </div>
@@ -100,13 +99,13 @@ const Project = () => {
             time.
           </p>
           <div className="button-div-p">
-            <a href="https://devpost.com/software/local-giver">
+            <a target="_blank" href="https://devpost.com/software/local-giver">
               <button className="visit-button">Visit Local Giver</button>
             </a>
-            <a href="https://youtu.be/JTbIQUvHx5s">
+            <a target="_blank" href="https://youtu.be/JTbIQUvHx5s">
               <button className="hidden-1 visit-button">View on Youtube</button>
             </a>
-            <a href="https://github.com/bchong12/LocalGiver1">
+            <a target="_blank" href="https://github.com/bchong12/LocalGiver1">
               <button className="visit-button">View On Github</button>
             </a>
           </div>

@@ -14,7 +14,7 @@ const Contact = () => {
           </p>
           <div className="fact">
             <p>• I am a sophmore studying Software Engineering</p>
-            <p>studying at Arizona State University</p>
+            <p>at Arizona State University</p>
           </div>
         </div>
         <div className="section-fact">
